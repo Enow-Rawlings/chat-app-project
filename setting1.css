@@ -1,0 +1,151 @@
+.icon2 {
+  width: 2000px;
+  height: 2000px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.account1,
+.security-notication {
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+}
+.account1 {
+  text-decoration: none;
+  width: 196px;
+  font-style: italic;
+  color: inherit;
+}
+.security-notication {
+  width: 290px;
+}
+.security-notication-wrapper {
+  align-self: stretch;
+  height: 60px;
+  border-radius: var(--br-base);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #fff;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 var(--padding-4xs);
+  white-space: nowrap;
+  font-size: var(--font-size-13xl);
+}
+.account-parent,
+.request-account-info {
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+.account-parent {
+  width: 352px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-15xl);
+  max-width: 100%;
+  font-size: var(--font-size-29xl);
+}
+.request-account-info {
+  width: 247px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  font-weight: 600;
+}
+.request-account-info-wrapper,
+.setting-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.request-account-info-wrapper {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-6xs) var(--padding-sm) var(--padding-3xl);
+  background-color: transparent;
+  height: 60px;
+  flex: 1;
+  border-radius: var(--br-2xl);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #fff;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.request-account-info-wrapper:hover {
+  background-color: #e6e6e6;
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+.setting-inner {
+  width: 355px;
+  height: 64px;
+  padding: 0 0 6px;
+}
+.how-to-delete {
+  width: 288px;
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+}
+.how-to-delete-my-accout-wrapper {
+  height: 60px;
+  flex: 1;
+  border-radius: 18px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #fff;
+  border: 1px solid var(--color-black);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-6xs) var(--padding-sm) var(--padding-3xl);
+  white-space: nowrap;
+  max-width: 100%;
+}
+.how-to-delete-my-accout-wrapper,
+.setting-child,
+.setting2 {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.setting-child {
+  width: 358px;
+  height: 58px;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) 0 var(--padding-10xs);
+  max-width: 100%;
+}
+.setting2 {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mid);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-black);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-lg) 400px;
+  gap: 58px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 900px) {
+  .account-parent {
+    gap: var(--gap-mid);
+  }
+}

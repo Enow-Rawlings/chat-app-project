@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="main-page">
+      <div class="left-pane-wrapper">
+        <div class="left-pane">
+          <header class="chat-list-pane">
+            <div class="chat-list-scroll">
+              <div class="chat-list-container">
+                <a class="sruj-chat">SRUJ Chat</a>
+              </div>
+              <a class="sruj-chat1">SRUJ Chat</a>
+            </div>
+            <a class="home" id="homeText">Home</a>
+          </header>
+          <div class="content-pane">
+            <div class="message-area">
+              <div class="message-area-child"></div>
+              <div class="message-top-bar">
+                <a class="public-messages" id="publicMessagesText"
+                  >Public Messages</a
+                >
+              </div>
+              <div class="private-messages-pane">
+                <a class="private-messages" id="privateMessagesText"
+                  >Private Messages</a
+                >
+                <div class="message-attachment">
+                  <img
+                    class="message-attachment-child"
+                    loading="lazy"
+                    alt=""
+                    src="./public/vector-1.svg"
+                  />
+                </div>
+              </div>
+              <div class="status-bar">
+                <a class="status" id="statusText">Status</a>
+              </div>
+              <a class="settings" id="settingsText">Settings</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main class="right-sidebar">
+        <div class="sidebar-content">
+          <h3 class="chats">Chats</h3>
+          <div class="search-pane">
+            <div class="search-bar-container">
+              <i class="search">
+                <p class="search1">search</p>
+              </i>
+              <div class="search-bar-input">
+                <img
+                  class="searchbar-1-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/searchbar-1@2x.png"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="contact-list" data-scroll-to="contactListContainer">
+            <div class="contact-items" data-scroll-to="contactItemsContainer">
+              <img
+                class="userlogo-2-icon"
+                loading="lazy"
+                alt=""
+                src="./public/userlogo-2@2x.png"
+              />
+
+              <div class="contact-names-container">
+                <i class="name">Name</i>
+              </div>
+            </div>
+            <div class="contact-items1">
+              <img
+                class="userlogo-2-icon1"
+                loading="lazy"
+                alt=""
+                src="./public/userlogo-2@2x.png"
+              />
+
+              <div class="name-wrapper">
+                <i class="name1">Name</i>
+              </div>
+            </div>
+            <div class="contact-items2">
+              <img
+                class="userlogo-2-icon2"
+                loading="lazy"
+                alt=""
+                src="./public/userlogo-2@2x.png"
+              />
+
+              <div class="name-container">
+                <i class="name2">Name</i>
+              </div>
+            </div>
+            <div class="contact-items3">
+              <img
+                class="userlogo-2-icon3"
+                loading="lazy"
+                alt=""
+                src="./public/userlogo-2@2x.png"
+              />
+
+              <div class="name-frame">
+                <i class="name3">Name</i>
+              </div>
+            </div>
+            <div class="contact-items4">
+              <img
+                class="userlogo-2-icon4"
+                loading="lazy"
+                alt=""
+                src="./public/userlogo-2@2x.png"
+              />
+
+              <div class="frame-div">
+                <i class="name4">Name</i>
+              </div>
+            </div>
+            <div class="contact-items5">
+              <img
+                class="userlogo-2-icon5"
+                loading="lazy"
+                alt=""
+                src="./public/userlogo-2@2x.png"
+              />
+
+              <div class="name-wrapper1">
+                <i class="name5">Name</i>
+              </div>
+            </div>
+            <div class="contact-items6">
+              <img
+                class="userlogo-2-icon6"
+                loading="lazy"
+                alt=""
+                src="./public/userlogo-2@2x.png"
+              />
+
+              <div class="name-wrapper2">
+                <i class="name6">Name</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="active-user-pane">
+          <div class="active-user-container">
+            <div class="active-user-info">
+              <div class="active-user-header">
+                <div class="active-user-status">
+                  <img
+                    class="active-user-indicator"
+                    loading="lazy"
+                    alt=""
+                    src="./public/vector-2.svg"
+                  />
+                </div>
+                <div class="active-user-details">
+                  <div class="active-user-details-child"></div>
+                  <div class="active-user-avatar-container">
+                    <div class="userlogo-1-wrapper">
+                      <img
+                        class="userlogo-1-icon"
+                        loading="lazy"
+                        alt=""
+                        src="./public/userlogo-1@2x.png"
+                      />
+                    </div>
+                    <div class="active-user-name">
+                      <i class="current-name">current name</i>
+                      <div class="active-user-state">
+                        <div class="active-user-state-container">
+                          <div class="active-user-state-icon">
+                            <div class="active-user-state-icon-child"></div>
+                          </div>
+                          <i class="active">Active</i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="call-buttons">
+                    <div class="call-button-container">
+                      <div class="call-button-icons">
+                        <img
+                          class="visdeoicon-1"
+                          loading="lazy"
+                          alt=""
+                          src="./public/visdeoicon-1@2x.png"
+                        />
+                      </div>
+                      <img
+                        class="callicon-1"
+                        loading="lazy"
+                        alt=""
+                        src="./public/callicon-1@2x.png"
+                      />
+
+                      <img
+                        class="settingicon-1"
+                        loading="lazy"
+                        alt=""
+                        src="./public/settingicon-1@2x.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer">
+              <div class="footer-content">
+                <div class="message-input">
+                  <h3 class="h3">☺️</h3>
+                </div>
+                <h3 class="h31">+</h3>
+              </div>
+              <div class="attachment-button">
+                <input
+                  class="attachment-button-container"
+                  type="text"
+                  data-scroll-to="attachmentButtonContainer"
+                />
+              </div>
+              <div class="send-button">
+                <img
+                  class="sendmessageicon-1"
+                  loading="lazy"
+                  alt=""
+                  src="./public/sendmessageicon-1@2x.png"
+                  id="sendmessageicon1Image"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "./welcome-page.html";
+        });
+      }
+      
+      var publicMessagesText = document.getElementById("publicMessagesText");
+      if (publicMessagesText) {
+        publicMessagesText.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='contactItemsContainer']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var privateMessagesText = document.getElementById("privateMessagesText");
+      if (privateMessagesText) {
+        privateMessagesText.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='contactListContainer']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var statusText = document.getElementById("statusText");
+      if (statusText) {
+        statusText.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='contactItemsContainer']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var settingsText = document.getElementById("settingsText");
+      if (settingsText) {
+        settingsText.addEventListener("click", function (e) {
+          window.location.href = "./setting.html";
+        });
+      }
+      
+      var sendmessageicon1Image = document.getElementById("sendmessageicon1Image");
+      if (sendmessageicon1Image) {
+        sendmessageicon1Image.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='attachmentButtonContainer']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+  </body>
+</html>

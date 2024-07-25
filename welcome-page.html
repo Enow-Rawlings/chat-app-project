@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./welcome-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="welcome-page">
+      <img
+        class="emjoi-1-icon"
+        loading="lazy"
+        alt=""
+        src="./public/emjoi-1@2x.png"
+      />
+
+      <h1 class="lets-connect-with-container">
+        <p class="lets-connect">LET’S CONNECT</p>
+        <p class="with-everyone">WITH EVERYONE</p>
+        <p class="in-real-time">IN REAL TIME</p>
+      </h1>
+      <div class="chat-with-the-container">
+        <p class="chat-with-the">
+          Chat with the most secure app to enjoy privacy
+        </p>
+        <p class="and-faster-messaging">and faster messaging.</p>
+      </div>
+      <img
+        class="callicon-2"
+        loading="lazy"
+        alt=""
+        src="./public/callicon-2@2x.png"
+      />
+
+      <section class="welcome-page-inner">
+        <header class="frame-parent">
+          <div class="chat-box-parent">
+            <a class="chat-box">chat Box</a>
+            <div class="rectangle-parent">
+              <div class="frame-child" id="rectangle"></div>
+              <div class="get-started" id="getStartedText">Get started</div>
+            </div>
+          </div>
+          <div class="frame-group">
+            <div class="frame-wrapper">
+              <div class="frame-container">
+                <div class="login-wrapper">
+                  <a class="login" id="loginText">Login</a>
+                </div>
+                <a class="contact">Contact</a>
+              </div>
+            </div>
+            <div class="documentation-wrapper">
+              <h3 class="documentation">Documentation</h3>
+            </div>
+            <a class="app">App</a>
+            <div class="about-wrapper">
+              <a class="about">About</a>
+            </div>
+          </div>
+        </header>
+      </section>
+      <section class="frame-section">
+        <div class="ejoy-the-best-of-privacy-withi-wrapper">
+          <h2 class="ejoy-the-best">
+            Ejoy the best of privacy within yourself
+          </h2>
+        </div>
+        <footer class="frame-footer">
+          <div class="frame-parent1">
+            <div class="frame-wrapper1">
+              <div class="video-calls-enjoy-the-best-of-parent">
+                <div class="video-calls-enjoy-container">
+                  <p class="video-calls">Video calls</p>
+                  <p class="enjoy-the-best">
+                    enjoy the best of quality hd with everyone
+                  </p>
+                </div>
+                <div class="rectangle-group">
+                  <div class="frame-item"></div>
+                  <img
+                    class="visdeoicon-2"
+                    loading="lazy"
+                    alt=""
+                    src="./public/visdeoicon-2@2x.png"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="rectangle-container">
+              <div class="frame-inner"></div>
+              <div class="audio-calls-get-container">
+                <p class="audio-calls">Audio Calls</p>
+                <p class="get-in-touch">
+                  get in touch with everyone over long distances
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="frame-wrapper2">
+            <div class="messagelogo-1-parent">
+              <img
+                class="messagelogo-1-icon"
+                loading="lazy"
+                alt=""
+                src="./public/messagelogo-1@2x.png"
+              />
+
+              <div class="text-messages-easy-container">
+                <p class="text-messages">Text Messages</p>
+                <p class="easy-to-send">easy to send explain detaily</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </div>
+
+    <script>
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          // Please sync "signup" to the project
+        });
+      }
+      
+      var getStartedText = document.getElementById("getStartedText");
+      if (getStartedText) {
+        getStartedText.addEventListener("click", function (e) {
+          // Please sync "signup" to the project
+        });
+      }
+      
+      var loginText = document.getElementById("loginText");
+      if (loginText) {
+        loginText.addEventListener("click", function (e) {
+          window.location.href = "./login.html";
+        });
+      }
+      </script>
+  </body>
+</html>
