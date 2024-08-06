@@ -90,6 +90,6 @@ function updateNameList(){
     history.forEach((name, index) => {
         const nameElement = document.createElement('p');
          nameElement.textContent = `${name}`;
-        output.appendChild(nameElement);
+        output.appendChild(nameElement).style.cssText= "border-top: 1px solid white; border-bottom: 1px solid white;  margin: 9px; width: 370px; padding-left: 14px"
     });
 }
